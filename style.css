@@ -1,0 +1,142 @@
+{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background-color: #f5f2ee;
+    color: #3b3b3b;
+    line-height: 1.6;
+}
+
+nav {
+    width: 100%;
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    background: rgba (245, 242, 238, 0.95);
+    filter: blur(3.5px);
+    border-bottom: 1px solid #ddd;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3b3b3b;
+    font-size: 0.95em;
+    padding: 6px 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-weight: normal;
+    margin-top: 50px;
+    font-size: 130%;
+}
+
+p {
+    margin-bottom: 25px;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 12px 26px;
+    border: 1px solid #3b3b3b;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #3b3b3b;
+    margin-top: 20px;
+}
+
+.button hover {
+    background-color: #3b3b3b;
+    color: #fff;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 12px;
+    margin: 20px 0;
+}
+
+.bucketlist {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.bucketlist li {
+    margin: 14px 0;
+    font-size: 1.05em;
+}
+
+.bucketlist input {
+    margin-right: 10px;
+}
+
+@media (max-width: 500px) {
+    nav ul {
+        column-gap: 12px;
+    }
+    
+    main {
+        padding: 40px 15px;
+    }
+}
+label {
+    display: block;
+    margin: 5px 0;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+input [type="checkbox"] {
+    margin-right: 10px;
+}
+li {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
